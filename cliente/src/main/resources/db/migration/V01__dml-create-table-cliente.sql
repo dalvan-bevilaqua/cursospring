@@ -1,0 +1,6 @@
+CREATE TABLE cliente (
+ id serial CONSTRAINT PKCLIENTE PRIMARY KEY,
+ nome VARCHAR(100) NOT NULL,
+ cpf VARCHAR(14) NOT NULL,
+ dt_nascimento TIMESTAMP
+)
